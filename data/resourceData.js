@@ -44,7 +44,7 @@ Game.resourceData = (function () {
         icon: 'energyIcon',
         category: 'energy',
         baseCapacity: 50000,
-        unlocked: false
+        unlocked: true
     };
 
     instance.plasma = {
@@ -53,7 +53,7 @@ Game.resourceData = (function () {
         icon: 'plasmaIcon',
         category: 'energy',
         baseCapacity: 50,
-        unlocked: false
+        unlocked: true
     };
 
     instance.uranium = {
@@ -62,7 +62,7 @@ Game.resourceData = (function () {
         icon: 'uraniumIcon',
         category: 'energy',
         baseCapacity: 50,
-        unlocked: false
+        unlocked: true
     };
 
     instance.lava = {
